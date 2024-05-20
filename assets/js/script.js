@@ -45,7 +45,7 @@ window.addEventListener("scroll", function () {
 
 });
 
-<<<<<<< HEAD
+/*<<<<<<< HEAD*/
 document.getElementById("voirPacksButton").addEventListener("click", function() {
   var popularSection = document.getElementById("popular-section");
   if (popularSection.style.display === "none") {
@@ -54,7 +54,7 @@ document.getElementById("voirPacksButton").addEventListener("click", function() 
     popularSection.style.display = "none";
   }
 });
-=======
+
 const wrapper = document.querySelector(".wrapper");
 const carousel = document.querySelector(".carousel");
 const firstCardWidth = carousel.querySelector(".card").offsetWidth;
@@ -139,4 +139,4 @@ document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("scroll", infiniteScroll);
 wrapper.addEventListener("mouseenter", () => clearTimeout(timeoutId));
 wrapper.addEventListener("mouseleave", autoPlay);
->>>>>>> 45539e113a11c2beaea35c565d8e990606bf3f5f
+/*>>>>>>> 45539e113a11c2beaea35c565d8e990606bf3f5f*/
