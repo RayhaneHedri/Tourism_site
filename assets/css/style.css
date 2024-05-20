@@ -375,7 +375,7 @@ body { background: var(--white); }
 \*-----------------------------------*/
 
 .hero {
-  background-image: url("../images/hero-banner.jpg");
+  background-image: url("../images/sidi-bou.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -389,6 +389,8 @@ body { background: var(--white); }
 }
 
 .hero-title { margin-bottom: 20px; }
+
+
 
 .hero-text {
   color: var(--white);
@@ -464,7 +466,7 @@ body { background: var(--white); }
   position: relative;
   overflow: hidden;
   border-radius: var(--radius-25);
-  height: 430px;
+  height: 550px;
 }
 
 .popular-card .card-img { height: 100%; }
