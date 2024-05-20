@@ -44,3 +44,12 @@ window.addEventListener("scroll", function () {
   }
 
 });
+
+document.getElementById("voirPacksButton").addEventListener("click", function() {
+  var popularSection = document.getElementById("popular-section");
+  if (popularSection.style.display === "none") {
+    popularSection.style.display = "block";
+  } else {
+    popularSection.style.display = "none";
+  }
+});
