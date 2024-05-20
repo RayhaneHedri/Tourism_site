@@ -1072,6 +1072,10 @@
   max-width: 100px; /* Largeur maximale de l'image */
   max-height: 100px; /* Hauteur maximale de l'image */
 }
+.langue {
+  max-width: 100px; /* Largeur maximale de l'image */
+  max-height: 80px; /* Hauteur maximale de l'image */
+}
 
 .carousel .card h2 {
   font-weight: 500;
