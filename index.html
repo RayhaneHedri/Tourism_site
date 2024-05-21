@@ -208,14 +208,16 @@
 -->
 <section class="tour-search">
   <div class="container">
+    <h2 class="h2 section-title" style="color: aliceblue;">le pack idéal pour vous</h2>
+    <p class="section-text" style="color: rgb(5, 49, 88);">Remplissez ces champs pour générer les packs idéals pour vous </p>
     <form action="" class="tour-search-form">
       <div class="input-wrapper">
         <label for="destination" class="input-label">Votre Destination*</label>
-        <input type="text" name="destination" id="destination" required placeholder="Enter Destination" class="input-field">
+        <input type="text" name="destination" id="destination" required placeholder="Votre Destination" class="input-field">
       </div>
       <div class="input-wrapper">
         <label for="people" class="input-label">Votre Budget*</label>
-        <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
+        <input type="number" name="people" id="people" required placeholder="Votre Budget" class="input-field">
       </div>
       <div class="input-wrapper">
         <label for="checkin" class="input-label">Date Arrivée**</label>
@@ -228,115 +230,116 @@
       <button type="button" id="voirPacksButton" class="btn btn-secondary">voir packs</button>
     </form>
   </div>
+  <section class="popular" id="popular-section" style="display: none;">
+    <div class="container">
+      <h2 class="h2 section-title" style="color: aliceblue;">les packs correspondents</h2><br>
+      <ul class="popular-list">
+        <!-- Popular destinations list -->
+        <li>
+          <div class="popular-card">
+            <figure class="card-img">
+              <img src="./assets/images/family-vacation-parents-children-sea-shore-summer-day.jpg" alt="San miguel, italy" loading="lazy">
+            </figure>
+            <div class="card-content">
+              <div class="card-rating">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+              </div>
+              <p class="card-subtitle">
+                <a href="#">Espagne</a>
+              </p>
+              <h3 class="h3 card-title">
+                <a href="#">Famille en Fête</a>
+              </h3>
+              <p class="card-text">
+                Découvrez des destinations parfaites pour toute la famille avec des activités adaptées aux enfants 
+                et des moments de détente pour les parents.
+              </p>
+            </div>
+          </div>
+        </li>
+        <div class="popular-card">
+  
+          <figure class="card-img">
+            <img src="./assets/images/group-elephants-walking-dry-grass-wilderness.jpg" alt="Kyoto temple, japan" loading="lazy">
+          </figure>
+  
+          <div class="card-content">
+  
+            <div class="card-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+  
+            <p class="card-subtitle">
+              <a href="#">Tanzanie</a>
+            </p>
+  
+            <h3 class="h3 card-title">
+              <a href="#">Expéditions Sauvages</a>
+            </h3>
+  
+            <p class="card-text">
+              Explorez des territoires sauvages et inexplorés avec des guides expérimentés, 
+              incluant des safaris, du trekking et du camping sauvage.
+            </p>
+  
+          </div>
+  
+        </div>
+  
+        <li>
+          <div class="popular-card">
+  
+            <figure class="card-img">
+              <img src="./assets/images/77ccd081933e9fcd925f1ebde5611e48.jpg" alt="Burj khalifa, dubai" loading="lazy">
+            </figure>
+  
+            <div class="card-content">
+  
+              <div class="card-rating">
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+                <ion-icon name="star"></ion-icon>
+              </div>
+  
+              <p class="card-subtitle">
+                <a href="#">italie</a>
+              </p>
+  
+              <h3 class="h3 card-title">
+                <a href="#">Évasion Romantique</a>
+              </h3>
+  
+              <p class="card-text">
+                Passez des moments inoubliables en couple dans des destinations idylliques, 
+                avec des dîners aux chandelles, des spas et des promenades pittoresques.
+              </p>
+  
+            </div>
+  
+          </div>
+        </li>
+  
+        <li>
+      </ul>
+      <button class="btn btn-secondary">autre destination</button>
+    </div>
+  </section>
 </section>
 
 <!-- 
   - #POPULAR
 -->
-<section class="popular" id="popular-section" style="display: none;">
-  <div class="container">
-    <h2 class="h2 section-title">les packs correspondents</h2>
-    <ul class="popular-list">
-      <!-- Popular destinations list -->
-      <li>
-        <div class="popular-card">
-          <figure class="card-img">
-            <img src="./assets/images/family-vacation-parents-children-sea-shore-summer-day.jpg" alt="San miguel, italy" loading="lazy">
-          </figure>
-          <div class="card-content">
-            <div class="card-rating">
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-            </div>
-            <p class="card-subtitle">
-              <a href="#">Espagne</a>
-            </p>
-            <h3 class="h3 card-title">
-              <a href="#">Famille en Fête</a>
-            </h3>
-            <p class="card-text">
-              Découvrez des destinations parfaites pour toute la famille avec des activités adaptées aux enfants 
-              et des moments de détente pour les parents.
-            </p>
-          </div>
-        </div>
-      </li>
-      <div class="popular-card">
 
-        <figure class="card-img">
-          <img src="./assets/images/group-elephants-walking-dry-grass-wilderness.jpg" alt="Kyoto temple, japan" loading="lazy">
-        </figure>
-
-        <div class="card-content">
-
-          <div class="card-rating">
-            <ion-icon name="star"></ion-icon>
-            <ion-icon name="star"></ion-icon>
-            <ion-icon name="star"></ion-icon>
-            <ion-icon name="star"></ion-icon>
-            <ion-icon name="star"></ion-icon>
-          </div>
-
-          <p class="card-subtitle">
-            <a href="#">Tanzanie</a>
-          </p>
-
-          <h3 class="h3 card-title">
-            <a href="#">Expéditions Sauvages</a>
-          </h3>
-
-          <p class="card-text">
-            Explorez des territoires sauvages et inexplorés avec des guides expérimentés, 
-            incluant des safaris, du trekking et du camping sauvage.
-          </p>
-
-        </div>
-
-      </div>
-
-      <li>
-        <div class="popular-card">
-
-          <figure class="card-img">
-            <img src="./assets/images/77ccd081933e9fcd925f1ebde5611e48.jpg" alt="Burj khalifa, dubai" loading="lazy">
-          </figure>
-
-          <div class="card-content">
-
-            <div class="card-rating">
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-              <ion-icon name="star"></ion-icon>
-            </div>
-
-            <p class="card-subtitle">
-              <a href="#">italie</a>
-            </p>
-
-            <h3 class="h3 card-title">
-              <a href="#">Évasion Romantique</a>
-            </h3>
-
-            <p class="card-text">
-              Passez des moments inoubliables en couple dans des destinations idylliques, 
-              avec des dîners aux chandelles, des spas et des promenades pittoresques.
-            </p>
-
-          </div>
-
-        </div>
-      </li>
-
-      <li>
-    </ul>
-    <button class="btn btn-primary">autre destination</button>
-  </div>
-</section>
 
 
 
