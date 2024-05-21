@@ -906,6 +906,21 @@
       --padding: 6px 20px;
     }
   
+    .btnTest {
+      background-color: rgb(115, 232, 255);
+      color: white;
+      border: 2px; /* Bordure noire de 2 pixels */
+      padding: 10px 20px; /* Ajuste le padding */
+      text-decoration: none; /* Enlève le soulignement de l'élément <a> */
+      display: inline-block; /* S'assure que le bouton s'affiche correctement */
+      border-radius: 20px; /* Ajoute des coins arrondis de 8 pixels */
+  }
+  
+  .btnTest a {
+      color: white;
+      text-decoration: none;
+  }
+  
   
   
     /**
